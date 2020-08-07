@@ -25,20 +25,20 @@
 
 const numberOfFilms = prompt(`Сколько вы посмотрели фильмов?`, ``);
 
-const personalMovieDB {
+const personalMovieDB = {
     count: numberOfFilms,
-    movies: null,
-    actors: null,
+    movies: {},
+    actors: {},
     genres: [],
-    privat: false
+    privat: {}
 };
 
 const a = prompt(`Один из просмотренных фильмов?`, ''),
       b = prompt(`На сколько оцените его?`, ''),
       c = prompt(`Один из просмотренных фильмов?`, ''),
-      d = prompt(`Один из просмотренных фильмов?`, '');
+      d = prompt(`На сколько оцените его?`, '');
 
       personalMovieDB.movies[a] = b;
-      personalMovieDB.movies[b] = d;
+      personalMovieDB.movies[c] = d;
 
       console.log(personalMovieDB);
